@@ -12,15 +12,52 @@ li{
 body{
     font-family: "Roboto", sans-serif;
 }
-header{
-    
+header{  
     nav{
-        background-color: #ffbdbd;   
+        
     }
     .nav-superior{
-        background-color: #e3c5ff;
+        background-color: #87fff1;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 0;
+    }
+    .nav-superior img{
+        height: 2.5rem;
+        padding: 0 1rem;
+    }
+    .nav-superior i{
+        padding: 0 .3rem;
+        font-size: 1.4em;
+        color: #000000;
+    }
+    .nav-superior i:hover{
+        background-color: #000000;
+    }
+    .buscador{
+        display: flex;
+        align-items: center;
+        padding: 0 1rem;
+    }
+    .buscador-input{
+        display: flex;
+        align-items: center;
+        padding: 0 .3rem;
     }
     .nav-inferior{
-        background-color: bisque;
+        background-color: #000000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-inferior a{
+        color: #ffffff;
+        padding: .3rem 1rem;
+        transition: all .4s;
+    }
+    .nav-inferior a:hover{
+        color: #4d6098;
+        background-color: #ffffff;
     }
 }
