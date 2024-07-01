@@ -14,9 +14,6 @@ body{
     background-color: #f3f3f3;
 }
 header{  
-    nav{
-        
-    }
     .nav-superior{
         background-color: #4DFBFF;
         display: flex;
@@ -55,7 +52,24 @@ header{
         padding: 0 18vw;
     }
 
-
+    }
+    .nav-superior img{
+        height: 2.5rem;
+        padding: 0 1rem;
+    }
+    .nav-superior i{
+        padding: 0 .3rem;
+        font-size: 1.4em;
+        color: #000000;
+    }
+    .nav-superior i:hover{
+        background-color: #000000;
+    }
+    .buscador{
+        display: flex;
+        align-items: center;
+        padding: 0 1rem;
+    }
     .buscador-input{
         display: flex;
         align-items: center;
@@ -103,13 +117,22 @@ header{
     .nav-inferior a{
         color: #ffffff;
         padding: .8rem 1.9rem;
+    }
+    .nav-inferior{
+        background-color: #000000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-inferior a{
+        color: #ffffff;
+        padding: .3rem 1rem;
         transition: all .4s;
     }
     .nav-inferior a:hover{
         color: #4d6098;
         background-color: #ffffff;
     }
-}
 
 .slide-container {
     overflow: hidden;
@@ -193,4 +216,5 @@ header{
     border: 1px solid #000000;
     border-radius: 10px;
     margin: 10px;
+
 }
